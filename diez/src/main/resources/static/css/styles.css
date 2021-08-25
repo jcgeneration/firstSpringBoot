@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+h3 {
+    color:blue;
+    text-align: center;
+}
+#main {
+    background-color: whitesmoke;
+    align-content: center;
+    margin:30px;
+    padding:30px;
+}
+.alert{
+    color: #72353D;  
+    background-color: #EAD2D5;
+}
+.div50{
+    height: 200px;
+    width: 40%;
+    padding: 20px;
+    border-radius: 50px;
+    border:black 1px solid;
+    transform: rotate(45deg);
+}
+#divRed{
+    animation: redToBlue 5s infinite;
+}
+#divBlue{
+    animation: blueToRed 5s infinite;
+}
+@keyframes redToBlue {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+@keyframes blueToRed {
+    from {background-color: blue;}
+    to {background-color: red;}
+  }
+  
